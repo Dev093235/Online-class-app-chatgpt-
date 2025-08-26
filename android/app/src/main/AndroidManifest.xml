@@ -4,6 +4,10 @@
     <application
         android:label="MyApp"
         android:icon="@mipmap/ic_launcher">
+
+        <!-- Add this line for Flutter embedding v2 -->
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
